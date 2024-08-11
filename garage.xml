@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="garage.xsl" type="text/xsl" ?> 
+<garages
+xmlns="http://www.example.com/garage"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.example.com/garage garage.xsd"
+>
+
+    <garage>
+        <name>Central Garage</name>
+        <location>Main Street, City</location>
+        <price>25.00</price>
+        <availability>Available</availability>
+    </garage>
+    <garage>
+        <name>Downtown Garage</name>
+        <location>2nd Avenue, City</location>
+        <price>30.00</price>
+        <availability>Not Available</availability>
+    </garage>
+    <garage>
+        <name>Northside Garage</name>
+        <location>North Road, City</location>
+        <price>20.00</price>
+        <availability>Available</availability>
+    </garage>
+</garages>

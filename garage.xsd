@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:gb="http://www.example.com/garage"
+           targetNamespace="http://www.example.com/garage"
+           elementFormDefault="qualified">
+
+
+    <xs:element name="garages">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="garage" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="location" type="xs:string"/>
+                            <xs:element name="price" type="xs:decimal"/>
+                            <xs:element name="availability" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
